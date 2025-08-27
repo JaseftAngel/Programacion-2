@@ -13,7 +13,6 @@ public class EstadisticaModular {
         return suma / datos.length;
     }
 
-    // Método para calcular desviación estándar
     public static double desviacion(double[] datos) {
         double prom = promedio(datos);
         double suma = 0;
@@ -34,4 +33,5 @@ public class EstadisticaModular {
         System.out.printf("El promedio es %.2f\n", promedio(numeros));
         System.out.printf("La desviación estándar es %.5f\n", desviacion(numeros));
     }
+
 }
